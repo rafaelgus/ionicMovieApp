@@ -20,6 +20,7 @@ export class MoviesPage implements OnInit {
 
   searchChanged() {
     this.results = this.movieService.searchData(this.searchTerm, this.type);
+        // tslint:disable-next-line:no-trailing-whitespace
         
     /* this.results.subscribe(res=> {
       in here
